@@ -46,11 +46,8 @@
             backgroundColor: 0x1099bb,
             width: 1280,
             height: 900,
-			useContextAlpha: false
-        });
-    app.renderer.mask.enableScissor = false;
-	console.log(app.renderer)
-	document.body.appendChild(app.view);
+	});
+    	document.body.appendChild(app.view);
 	const button = document.querySelector('button');
 
 	PIXI.Loader.shared.add('spine', URL)
